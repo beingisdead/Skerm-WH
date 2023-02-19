@@ -1,0 +1,8 @@
+{
+    "apiKey" : [""],
+    "regex" : "",
+    "searchParam" : "search/code?q=discord.com/api/webhooks&sort=indexed&direction=desc",
+    "webhookConfig" : {},
+    "homewebhook" : "",
+    "homewebhookconfig" : {}
+}
