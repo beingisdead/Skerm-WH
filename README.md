@@ -1,3 +1,3 @@
 # Skerm-WH
 Feel like stealing people's webhooks from github?? You're in luck
-!! DO NOT USE THIS FOR THE LOVE OF GOD !!
+<br>THIS IS AN EXTREMELY OUTDATED VERSION OF SKERM, PLEASE WAIT FOR THE NEW RELEASE<br>
