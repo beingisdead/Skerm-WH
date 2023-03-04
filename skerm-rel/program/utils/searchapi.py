@@ -6,8 +6,7 @@ from logzero import logger
 baseurl = "https://api.github.com/"
 
 def searchcall(param, key):
-    headers = {'Authorization' : f'Token {key}'}
-    data = requests.get(f"{baseurl}{param}", headers=headers)
+    data = requests.get(f"{baseurl}{param}", headers={'Authorization' : f'Token {key}'})
     return data
 
 if __name__ == "__main__":
