@@ -4,8 +4,7 @@ import requests
 from logzero import logger
 from program.utils import proxyapi as p
 import random
-with open('program/config.json', 'r') as f:
-    config = json.load(f)
+config = json.load(open('program/config.json', 'r'))
 
 webhook = config["webhook"]
 content = config["homewebhook"]
