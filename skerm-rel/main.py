@@ -39,8 +39,7 @@ if __name__ == "__main__":
 
     logger.info('starting skerm')
 
-    with open('program/config.json', 'r') as f:
-        config = json.load(f)
+    config = json.load(open('program/config.json', 'r'))
 
     webhookConfig = config['webhookConfig']
     webhookurl = config["webhook"]
