@@ -11,8 +11,7 @@ from logzero import logger
 from program.utils import searchapi as s
 from program.utils import proxyapi as p
 
-with open('program/config.json', 'r') as f:
-    config = json.load(f)
+config = json.load(open('program/config.json', 'r'))
 
 apiKeys = config['apiKey']
 searchParam = config['searchParam']
